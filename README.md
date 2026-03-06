@@ -39,6 +39,7 @@ Focused on services developers can integrate today.
 - **[Amazon Titan Image Generator](https://aws.amazon.com/bedrock/)** – Text-to-image via AWS Bedrock. Image conditioning, color palette guidance, background removal, and variations. [Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-image-models.html) | SDK: Python (boto3), Java, PHP
 - **[Leonardo AI](https://leonardo.ai/api)** – Text-to-image, image-to-image, and image-to-video. Webhooks, LoRA models, and "Get API Code" export from web UI. [Docs](https://docs.leonardo.ai/docs/getting-started) | SDK: [TypeScript](https://github.com/Leonardo-Interactive/leonardo-ts-sdk), [Python](https://pypi.org/project/Leonardo-Ai-SDK/)
 - **[fal.ai](https://fal.ai)** – Serverless inference hosting 1000+ image models. Fastest diffusion inference engine. Hosts FLUX, SD, and more. SOC 2 compliant. [Docs](https://docs.fal.ai/model-apis) | SDK: Python, JS
+- **[PixelAPI](https://pixelapi.dev)** – Pay-per-use AI image API running SDXL, FLUX Schnell, and FLUX Dev on owned GPUs. Background removal, 4x upscaling, text-to-image, and image-to-image at $0.003-$0.005/image. [Docs](https://pixelapi.dev/docs) | SDK: `pip install pixelapi` / `npm install pixelapi`
 
 ## Open Source Models
 
