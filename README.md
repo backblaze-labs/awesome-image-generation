@@ -42,6 +42,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[OpenAI GPT Image](https://platform.openai.com/docs/guides/images)** – gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026. [Docs](https://platform.openai.com/docs/api-reference/images) | SDK: Python, Node
 - **[Recraft AI](https://www.recraft.ai/api)** – Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface. [Docs](https://www.recraft.ai/docs/api-reference/getting-started)
 - **[Stability AI](https://stability.ai)** – Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting. [Docs](https://platform.stability.ai/docs/api-reference)
+- **[xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation)** – grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface. [Docs](https://docs.x.ai/developers/rest-api-reference/inference/images) | SDK: Python (xai-sdk), JS (openai-compatible)
 
 ## Open Source Models
 
@@ -55,6 +56,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Kandinsky 3](https://github.com/ai-forever/Kandinsky-3)** – Open-source T2I from AI Forever. 2x larger U-Net and 10x larger text encoder vs v2.x. [Docs](https://huggingface.co/kandinsky-community/kandinsky-3)
 - **[FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev)** – 12B param guidance-distilled model. High quality, competitive with closed-source. Non-commercial license.
 - **[FLUX.2 [dev]](https://huggingface.co/black-forest-labs/FLUX.2-dev)** – 32B param model with generation, editing, and multi-reference combining.
+- **[GLM-Image](https://github.com/zai-org/GLM-Image)** – 16B hybrid autoregressive + diffusion model from Zhipu AI. Excels at text rendering inside images. Supports T2I and I2I. Runs via GlmImagePipeline in diffusers. [Docs](https://huggingface.co/zai-org/GLM-Image)
 - **[HiDream-I1](https://github.com/HiDream-ai/HiDream-I1)** – 17B sparse diffusion transformer for text-to-image. Three variants (Full, Dev, Fast). Top benchmark scores; diffusers-native via HiDreamImagePipeline. [Docs](https://huggingface.co/HiDream-ai/HiDream-I1-Full)
 - **[Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic)** – Aesthetic-focused model fine-tuned on SDXL architecture.
 - **[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo)** – Adversarial distillation of SDXL enabling single-step generation.
@@ -72,7 +74,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[InvokeAI](https://github.com/invoke-ai/InvokeAI)** – Creative engine for SD models targeting professionals. Industry-leading WebUI. [Docs](https://invoke.ai)
 - **[Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)** – Fork of AUTOMATIC1111 with improved GPU memory management and performance. Compatible with A1111 extensions.
 - **[AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit)** – All-in-one training suite for diffusion models. GUI and CLI. Trains FLUX.1/2, SDXL, SD 1.5, Qwen-Image, HiDream, and video models on consumer hardware.
+- **[ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)** – Extension for ComfyUI that installs, updates, and manages 800+ custom nodes via a GUI or CLI. Auto-installed with ComfyUI Desktop. [Docs](https://registry.comfy.org)
 - **[kohya_ss](https://github.com/bmaltais/kohya_ss)** – Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
+- **[OneTrainer](https://github.com/Nerogar/OneTrainer)** – GUI and CLI training suite for diffusion models. Supports FLUX.1/2, Chroma, SD 1.5/2/3/XL, SDXL, PixArt, HiDream, and Hunyuan Video.
 
 ## Image Editing and Enhancement
 
@@ -104,6 +108,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Replicate](https://replicate.com)** – Serverless model hosting for open-source image models. [Docs](https://replicate.com/docs)
 - **[RunPod](https://www.runpod.io)** – GPU pods and serverless endpoints. 48% of serverless cold starts under 200ms. [Docs](https://docs.runpod.io)
 - **[Together AI](https://www.together.ai)** – Inference API for 200+ open models. [Docs](https://www.together.ai/inference)
+- **[WaveSpeed AI](https://wavespeed.ai)** – Serverless inference platform with 700+ image and video models. Sub-second cold starts for FLUX and other diffusion models. OpenAI-compatible REST API. [Docs](https://wavespeed.ai/docs) | SDK: Python, JS
 
 ## Image Storage and Delivery
 

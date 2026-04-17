@@ -111,6 +111,17 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: xAI Image Generation API
+  url: https://docs.x.ai/developers/model-capabilities/images/generation
+  docs_url: https://docs.x.ai/developers/rest-api-reference/inference/images
+  description: "grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface."
+  category: text-to-image-apis
+  sdks:
+    - {language: Python (xai-sdk)}
+    - {language: JS (openai-compatible)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -235,6 +246,16 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: GLM-Image
+  url: https://github.com/zai-org/GLM-Image
+  docs_url: https://huggingface.co/zai-org/GLM-Image
+  description: 16B hybrid autoregressive + diffusion model from Zhipu AI. Excels at text rendering inside images. Supports T2I and I2I. Runs via GlmImagePipeline in diffusers.
+  category: open-source-models
+  github: zai-org/GLM-Image
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Frameworks and UIs ----------------
 
 - name: ComfyUI
@@ -300,6 +321,25 @@
   category: frameworks-and-uis
   github: ostris/ai-toolkit
   license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: ComfyUI-Manager
+  url: https://github.com/Comfy-Org/ComfyUI-Manager
+  docs_url: https://registry.comfy.org
+  description: Extension for ComfyUI that installs, updates, and manages 800+ custom nodes via a GUI or CLI. Auto-installed with ComfyUI Desktop.
+  category: frameworks-and-uis
+  github: Comfy-Org/ComfyUI-Manager
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: OneTrainer
+  url: https://github.com/Nerogar/OneTrainer
+  description: GUI and CLI training suite for diffusion models. Supports FLUX.1/2, Chroma, SD 1.5/2/3/XL, SDXL, PixArt, HiDream, and Hunyuan Video.
+  category: frameworks-and-uis
+  github: Nerogar/OneTrainer
+  license: AGPL-3.0
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -459,6 +499,17 @@
   category: gpu-cloud-providers
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: WaveSpeed AI
+  url: https://wavespeed.ai
+  docs_url: https://wavespeed.ai/docs
+  description: Serverless inference platform with 700+ image and video models. Sub-second cold starts for FLUX and other diffusion models. OpenAI-compatible REST API.
+  category: gpu-cloud-providers
+  sdks:
+    - {language: Python}
+    - {language: JS}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Image Storage and Delivery ----------------
 
