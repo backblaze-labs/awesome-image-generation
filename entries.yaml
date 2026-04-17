@@ -122,6 +122,19 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Google Gemini Image API
+  url: https://ai.google.dev/gemini-api/docs/image-generation
+  docs_url: https://ai.google.dev/gemini-api/docs
+  description: Native image generation via Gemini models (gemini-2.5-flash-image, gemini-3.1-flash-image-preview). Text-to-image, editing, multi-turn. Python/JS/Go/Java SDKs. Free tier via AI Studio.
+  category: text-to-image-apis
+  sdks:
+    - {language: Python (google-genai)}
+    - {language: JS (google/generative-ai)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -256,6 +269,17 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Qwen-Image
+  url: https://github.com/QwenLM/Qwen-Image
+  docs_url: https://huggingface.co/Qwen/Qwen-Image-2512
+  description: Alibaba's open-weight T2I family. Qwen-Image-2512 (text-to-image) and Qwen-Image-Edit variants. Strong text rendering including Chinese. Diffusers-native, Apache 2.0.
+  category: open-source-models
+  github: QwenLM/Qwen-Image
+  license: Apache-2.0
+  tags: [text-rendering]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Frameworks and UIs ----------------
 
 - name: ComfyUI
@@ -340,6 +364,24 @@
   category: frameworks-and-uis
   github: Nerogar/OneTrainer
   license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: stable-diffusion.cpp
+  url: https://github.com/leejet/stable-diffusion.cpp
+  description: Diffusion model inference in pure C/C++ with no external dependencies. Runs SD 1.x/2.x/XL/3.5, FLUX.1/2, Chroma, Qwen-Image, and Z-Image. CPU/CUDA/Metal/Vulkan backends.
+  category: frameworks-and-uis
+  github: leejet/stable-diffusion.cpp
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: DiffSynth-Studio
+  url: https://github.com/modelscope/DiffSynth-Studio
+  description: Python diffusion engine by ModelScope. Inference and LoRA training for FLUX.1/2, Qwen-Image, Z-Image, and JoyAI-Image. Low-VRAM optimizations, ControlNet, IP-Adapter support.
+  category: frameworks-and-uis
+  github: modelscope/DiffSynth-Studio
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
 
