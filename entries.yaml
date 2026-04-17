@@ -140,6 +140,26 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: FLUX.1 Kontext [dev]
+  url: https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev
+  docs_url: https://github.com/black-forest-labs/flux
+  description: 12B param instruction-based image editing model. Edit existing images via text prompts; character/style reference without finetuning. Non-commercial license.
+  category: open-source-models
+  github: black-forest-labs/flux
+  tags: [flux]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: HiDream-I1
+  url: https://github.com/HiDream-ai/HiDream-I1
+  docs_url: https://huggingface.co/HiDream-ai/HiDream-I1-Full
+  description: 17B sparse diffusion transformer for text-to-image. Three variants (Full, Dev, Fast). Top benchmark scores; diffusers-native via HiDreamImagePipeline.
+  category: open-source-models
+  github: HiDream-ai/HiDream-I1
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: Stable Diffusion 1.5
   url: https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5
   description: 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
@@ -265,6 +285,24 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: kohya_ss
+  url: https://github.com/bmaltais/kohya_ss
+  description: Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
+  category: frameworks-and-uis
+  github: bmaltais/kohya_ss
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: AI Toolkit (ostris)
+  url: https://github.com/ostris/ai-toolkit
+  description: All-in-one training suite for diffusion models. GUI and CLI. Trains FLUX.1/2, SDXL, SD 1.5, Qwen-Image, HiDream, and video models on consumer hardware.
+  category: frameworks-and-uis
+  github: ostris/ai-toolkit
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Image Editing and Enhancement ----------------
 
 - name: ControlNet
@@ -301,6 +339,16 @@
   github: TencentARC/GFPGAN
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Upscayl
+  url: https://github.com/upscayl/upscayl
+  docs_url: https://upscayl.org
+  description: Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU.
+  category: image-editing-and-enhancement
+  github: upscayl/upscayl
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- SDKs and Developer Tooling ----------------
 

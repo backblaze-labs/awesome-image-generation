@@ -2,7 +2,7 @@
 
 A curated list of AI image generation APIs, SDKs, and production-ready tools. Focused on services developers can integrate today.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -48,12 +48,14 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 > Open-weight image-generation models you can run locally or self-host.
 
 - **[FLUX.1 [schnell]](https://huggingface.co/black-forest-labs/FLUX.1-schnell)** – 12B param rectified flow transformer. 1-4 step generation. Fully open for commercial use. [Docs](https://github.com/black-forest-labs/flux)
+- **[FLUX.1 Kontext [dev]](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev)** – 12B param instruction-based image editing model. Edit existing images via text prompts; character/style reference without finetuning. Non-commercial license. [Docs](https://github.com/black-forest-labs/flux)
 - **[DeepFloyd IF](https://github.com/deep-floyd/IF)** – Cascaded pixel-space diffusion (64px → 256px → 1024px). Strong text rendering. Zero-Shot FID 6.66 on COCO.
 - **[LCM / LCM-LoRA](https://github.com/luosiallen/latent-consistency-model)** – Latent Consistency Models enabling 2-4 step generation. LCM-LoRA is a lightweight ~100MB adapter for any SDXL model. [Docs](https://huggingface.co/docs/diffusers/using-diffusers/inference_with_lcm)
 - **[PixArt-Alpha / PixArt-Sigma](https://github.com/PixArt-alpha/PixArt-alpha)** – DiT-based T2I at 10.8% of SD1.5 training cost. Near-commercial quality. [Docs](https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS)
 - **[Kandinsky 3](https://github.com/ai-forever/Kandinsky-3)** – Open-source T2I from AI Forever. 2x larger U-Net and 10x larger text encoder vs v2.x. [Docs](https://huggingface.co/kandinsky-community/kandinsky-3)
 - **[FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev)** – 12B param guidance-distilled model. High quality, competitive with closed-source. Non-commercial license.
 - **[FLUX.2 [dev]](https://huggingface.co/black-forest-labs/FLUX.2-dev)** – 32B param model with generation, editing, and multi-reference combining.
+- **[HiDream-I1](https://github.com/HiDream-ai/HiDream-I1)** – 17B sparse diffusion transformer for text-to-image. Three variants (Full, Dev, Fast). Top benchmark scores; diffusers-native via HiDreamImagePipeline. [Docs](https://huggingface.co/HiDream-ai/HiDream-I1-Full)
 - **[Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic)** – Aesthetic-focused model fine-tuned on SDXL architecture.
 - **[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo)** – Adversarial distillation of SDXL enabling single-step generation.
 - **[Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)** – 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
@@ -69,6 +71,8 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Fooocus](https://github.com/lllyasviel/Fooocus)** – Midjourney-inspired SDXL UI. Prompt-only workflow, no manual parameter tweaking.
 - **[InvokeAI](https://github.com/invoke-ai/InvokeAI)** – Creative engine for SD models targeting professionals. Industry-leading WebUI. [Docs](https://invoke.ai)
 - **[Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)** – Fork of AUTOMATIC1111 with improved GPU memory management and performance. Compatible with A1111 extensions.
+- **[AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit)** – All-in-one training suite for diffusion models. GUI and CLI. Trains FLUX.1/2, SDXL, SD 1.5, Qwen-Image, HiDream, and video models on consumer hardware.
+- **[kohya_ss](https://github.com/bmaltais/kohya_ss)** – Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
 
 ## Image Editing and Enhancement
 
@@ -78,6 +82,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)** – Image and video upscaler, up to 8x. Handles real-world blind super-resolution with noise/artifact removal. [Docs](https://replicate.com/nightmareai/real-esrgan)
 - **[IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)** – Lightweight adapter (~100MB) for image-based prompting. New cross-attention layers for image feature conditioning. [Docs](https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter)
 - **[ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux)** – Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux. [Docs](https://github.com/Mikubill/sd-webui-controlnet)
+- **[Upscayl](https://github.com/upscayl/upscayl)** – Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU. [Docs](https://upscayl.org)
 
 ## SDKs and Developer Tooling
 
@@ -142,4 +147,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

@@ -31,6 +31,8 @@
 
 - [FLUX.1 [schnell]](https://huggingface.co/black-forest-labs/FLUX.1-schnell): 12B param rectified flow transformer. 1-4 step generation. Fully open for commercial use.
   - docs: https://github.com/black-forest-labs/flux
+- [FLUX.1 Kontext [dev]](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev): 12B param instruction-based image editing model. Edit existing images via text prompts; character/style reference without finetuning. Non-commercial license.
+  - docs: https://github.com/black-forest-labs/flux
 - [DeepFloyd IF](https://github.com/deep-floyd/IF): Cascaded pixel-space diffusion (64px → 256px → 1024px). Strong text rendering. Zero-Shot FID 6.66 on COCO.
 - [LCM / LCM-LoRA](https://github.com/luosiallen/latent-consistency-model): Latent Consistency Models enabling 2-4 step generation. LCM-LoRA is a lightweight ~100MB adapter for any SDXL model.
   - docs: https://huggingface.co/docs/diffusers/using-diffusers/inference_with_lcm
@@ -40,6 +42,8 @@
   - docs: https://huggingface.co/kandinsky-community/kandinsky-3
 - [FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev): 12B param guidance-distilled model. High quality, competitive with closed-source. Non-commercial license.
 - [FLUX.2 [dev]](https://huggingface.co/black-forest-labs/FLUX.2-dev): 32B param model with generation, editing, and multi-reference combining.
+- [HiDream-I1](https://github.com/HiDream-ai/HiDream-I1): 17B sparse diffusion transformer for text-to-image. Three variants (Full, Dev, Fast). Top benchmark scores; diffusers-native via HiDreamImagePipeline.
+  - docs: https://huggingface.co/HiDream-ai/HiDream-I1-Full
 - [Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic): Aesthetic-focused model fine-tuned on SDXL architecture.
 - [SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo): Adversarial distillation of SDXL enabling single-step generation.
 - [Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5): 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
@@ -57,6 +61,8 @@
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI): Creative engine for SD models targeting professionals. Industry-leading WebUI.
   - docs: https://invoke.ai
 - [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge): Fork of AUTOMATIC1111 with improved GPU memory management and performance. Compatible with A1111 extensions.
+- [AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit): All-in-one training suite for diffusion models. GUI and CLI. Trains FLUX.1/2, SDXL, SD 1.5, Qwen-Image, HiDream, and video models on consumer hardware.
+- [kohya_ss](https://github.com/bmaltais/kohya_ss): Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
 
 ## Image Editing and Enhancement
 
@@ -67,6 +73,8 @@
   - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
 - [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
   - docs: https://github.com/Mikubill/sd-webui-controlnet
+- [Upscayl](https://github.com/upscayl/upscayl): Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU.
+  - docs: https://upscayl.org
 
 ## SDKs and Developer Tooling
 
