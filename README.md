@@ -2,10 +2,16 @@
 
 A curated list of AI image generation APIs, SDKs, and production-ready tools. Focused on services developers can integrate today.
 
+Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+
 ### Related Lists
 
 - [Awesome Audio Generation](https://github.com/backblaze-labs/awesome-audio-generation)
 - [Awesome Video Generation](https://github.com/backblaze-labs/awesome-video-generation)
+- [Awesome ML Data Pipelines](https://github.com/backblaze-labs/awesome-ml-data-pipelines)
+- [Awesome Multimodal Data](https://github.com/backblaze-labs/awesome-multimodal-data)
+- [Awesome Agent Infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure)
+- [Awesome Physical AI](https://github.com/backblaze-labs/awesome-physical-ai)
 
 ## Contents
 
@@ -32,7 +38,10 @@ A curated list of AI image generation APIs, SDKs, and production-ready tools. Fo
 - **[Google Imagen (Vertex AI)](https://cloud.google.com/vertex-ai)** – Imagen 4 via Vertex AI. Text-to-image, editing, outpainting, inpainting, customization. [Docs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/overview) | SDK: Python (google-cloud-aiplatform), Node
 - **[Ideogram](https://ideogram.ai)** – Known for high-quality text rendering in images. Ideogram 3.0 supports generation, remix, edit, and character reference. OpenAI-compatible interface. [Docs](https://developer.ideogram.ai)
 - **[Leonardo AI](https://leonardo.ai/api)** – Text-to-image, image-to-image, and image-to-video. Webhooks, LoRA models, and "Get API Code" export from web UI. [Docs](https://docs.leonardo.ai/docs/getting-started) | SDK: [TypeScript](https://github.com/Leonardo-Interactive/leonardo-ts-sdk), [Python](https://pypi.org/project/Leonardo-Ai-SDK/)
-- **[fal.ai](https://fal.ai)** – Serverless inference hosting 1000+ image models. Fastest diffusion inference engine. Hosts FLUX, SD, and more. SOC 2 compliant. [Docs](https://docs.fal.ai/model-apis) | SDK: Python, JS
+- **[Midjourney](https://www.midjourney.com)** – Official API released late 2025. Enterprise/Pro plan holders only; no public self-service access. [Docs](https://docs.midjourney.com)
+- **[OpenAI GPT Image](https://platform.openai.com/docs/guides/images)** – gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026. [Docs](https://platform.openai.com/docs/api-reference/images) | SDK: Python, Node
+- **[Recraft AI](https://www.recraft.ai/api)** – Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface. [Docs](https://www.recraft.ai/docs/api-reference/getting-started)
+- **[Stability AI](https://stability.ai)** – Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting. [Docs](https://platform.stability.ai/docs/api-reference)
 
 ## Open Source Models
 
@@ -133,4 +142,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
