@@ -1,0 +1,38 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: text-to-image-apis
+  name: Text-to-Image APIs
+  description: Commercial image-generation APIs with hosted inference and developer SDKs.
+
+- slug: open-source-models
+  name: Open Source Models
+  description: Open-weight image-generation models you can run locally or self-host.
+
+- slug: frameworks-and-uis
+  name: Open Source Frameworks and UIs
+  description: Graphical and programmatic interfaces for running diffusion pipelines.
+
+- slug: image-editing-and-enhancement
+  name: Image Editing and Enhancement
+  description: Conditioning, adaptation, restoration, and upscaling tools.
+
+- slug: sdks-and-developer-tooling
+  name: SDKs and Developer Tooling
+  description: Libraries and client SDKs for integrating image generation into apps.
+
+- slug: gpu-cloud-providers
+  name: GPU Cloud Providers
+  description: Serverless and on-demand GPU platforms for running image models.
+
+- slug: image-storage-and-delivery
+  name: Image Storage and Delivery
+  description: Object stores and CDNs suited to generated-image workloads.
+
+- slug: evaluation-and-observability
+  name: Evaluation and Observability
+  description: Metrics, leaderboards, and quality tooling for generated images.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.

@@ -1,0 +1,129 @@
+# Awesome Image Generation
+
+> A curated list of AI image generation APIs, SDKs, and production-ready tools. Focused on services developers can integrate today.
+
+## Text-to-Image APIs
+
+- [Adobe Firefly API](https://developer.adobe.com/firefly-services/): Image generation, editing, Photoshop automation, and Lightroom operations. Part of Firefly Services platform.
+  - docs: https://developer.adobe.com/firefly-services/docs/firefly-api/
+- [Amazon Titan Image Generator](https://aws.amazon.com/bedrock/): Text-to-image via AWS Bedrock. Image conditioning, color palette guidance, background removal, and variations.
+  - docs: https://docs.aws.amazon.com/bedrock/latest/userguide/titan-image-models.html
+- [Black Forest Labs (FLUX Pro)](https://bfl.ai): FLUX 1.1 Pro and FLUX.2 (32B params) via REST API. From the creators of FLUX and Stable Diffusion. Also on Replicate, fal.ai, Together AI.
+  - docs: https://docs.bfl.ml/quick_start/introduction
+- [fal.ai](https://fal.ai): Serverless inference hosting 1000+ image models. Fastest diffusion inference engine. Hosts FLUX, SD, and more. SOC 2 compliant.
+  - docs: https://docs.fal.ai/model-apis
+- [Google Imagen (Vertex AI)](https://cloud.google.com/vertex-ai): Imagen 4 via Vertex AI. Text-to-image, editing, outpainting, inpainting, customization.
+  - docs: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/overview
+- [Ideogram](https://ideogram.ai): Known for high-quality text rendering in images. Ideogram 3.0 supports generation, remix, edit, and character reference. OpenAI-compatible interface.
+  - docs: https://developer.ideogram.ai
+- [Leonardo AI](https://leonardo.ai/api): Text-to-image, image-to-image, and image-to-video. Webhooks, LoRA models, and "Get API Code" export from web UI.
+  - docs: https://docs.leonardo.ai/docs/getting-started
+- [Midjourney](https://www.midjourney.com): Official API released late 2025. Enterprise/Pro plan holders only; no public self-service access.
+  - docs: https://docs.midjourney.com
+- [OpenAI GPT Image](https://platform.openai.com/docs/guides/images): gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026.
+  - docs: https://platform.openai.com/docs/api-reference/images
+- [Recraft AI](https://www.recraft.ai/api): Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface.
+  - docs: https://www.recraft.ai/docs/api-reference/getting-started
+- [Stability AI](https://stability.ai): Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting.
+  - docs: https://platform.stability.ai/docs/api-reference
+
+## Open Source Models
+
+- [FLUX.1 [schnell]](https://huggingface.co/black-forest-labs/FLUX.1-schnell): 12B param rectified flow transformer. 1-4 step generation. Fully open for commercial use.
+  - docs: https://github.com/black-forest-labs/flux
+- [DeepFloyd IF](https://github.com/deep-floyd/IF): Cascaded pixel-space diffusion (64px → 256px → 1024px). Strong text rendering. Zero-Shot FID 6.66 on COCO.
+- [LCM / LCM-LoRA](https://github.com/luosiallen/latent-consistency-model): Latent Consistency Models enabling 2-4 step generation. LCM-LoRA is a lightweight ~100MB adapter for any SDXL model.
+  - docs: https://huggingface.co/docs/diffusers/using-diffusers/inference_with_lcm
+- [PixArt-Alpha / PixArt-Sigma](https://github.com/PixArt-alpha/PixArt-alpha): DiT-based T2I at 10.8% of SD1.5 training cost. Near-commercial quality.
+  - docs: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+- [Kandinsky 3](https://github.com/ai-forever/Kandinsky-3): Open-source T2I from AI Forever. 2x larger U-Net and 10x larger text encoder vs v2.x.
+  - docs: https://huggingface.co/kandinsky-community/kandinsky-3
+- [FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev): 12B param guidance-distilled model. High quality, competitive with closed-source. Non-commercial license.
+- [FLUX.2 [dev]](https://huggingface.co/black-forest-labs/FLUX.2-dev): 32B param model with generation, editing, and multi-reference combining.
+- [Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic): Aesthetic-focused model fine-tuned on SDXL architecture.
+- [SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo): Adversarial distillation of SDXL enabling single-step generation.
+- [Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5): 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
+- [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large): MMDiT architecture with three text encoders (including T5-XXL). Highest-quality Stability open model.
+  - docs: https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo
+- [Stable Diffusion XL (SDXL)](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0): Native 1024x1024. Improved text-in-image and limb generation. Base + refiner pipeline.
+
+## Open Source Frameworks and UIs
+
+- [AUTOMATIC1111 WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui): Most widely used Gradio-based SD web UI. 161k+ stars. Extensive extension ecosystem.
+  - docs: https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI): Node-based graph UI and backend for diffusion models. Highly customizable, API-accessible. Supports SD, SDXL, Flux, and modern models.
+  - docs: https://docs.comfy.org/
+- [Fooocus](https://github.com/lllyasviel/Fooocus): Midjourney-inspired SDXL UI. Prompt-only workflow, no manual parameter tweaking.
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI): Creative engine for SD models targeting professionals. Industry-leading WebUI.
+  - docs: https://invoke.ai
+- [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge): Fork of AUTOMATIC1111 with improved GPU memory management and performance. Compatible with A1111 extensions.
+
+## Image Editing and Enhancement
+
+- [GFPGAN](https://github.com/TencentARC/GFPGAN): Face restoration from Tencent ARC. Restores facial details from degraded images. Often paired with Real-ESRGAN.
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): Image and video upscaler, up to 8x. Handles real-world blind super-resolution with noise/artifact removal.
+  - docs: https://replicate.com/nightmareai/real-esrgan
+- [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter): Lightweight adapter (~100MB) for image-based prompting. New cross-attention layers for image feature conditioning.
+  - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
+- [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
+  - docs: https://github.com/Mikubill/sd-webui-controlnet
+
+## SDKs and Developer Tooling
+
+- [Gradio](https://www.gradio.app): Python library for building interactive ML demos and web UIs. Foundation for AUTOMATIC1111, Fooocus, and HuggingFace Spaces. Includes gradio-client for programmatic access.
+  - docs: https://github.com/gradio-app/gradio
+- [HuggingFace Diffusers](https://github.com/huggingface/diffusers): The canonical PyTorch library for diffusion models. SD 1.5, SDXL, SD3, Flux, ControlNet, IP-Adapter, and more.
+  - docs: https://huggingface.co/docs/diffusers
+- [Replicate SDK](https://github.com/replicate/replicate-python): Python/JS client for 50,000+ hosted ML models. Pay-per-second, no GPU management.
+  - docs: https://replicate.com/docs
+- [fal.ai SDK](https://github.com/fal-ai/fal-js): Python and JS SDKs for serverless inference. Also a Vercel AI SDK provider.
+  - docs: https://docs.fal.ai
+- [OpenAI SDK](https://platform.openai.com/docs/api-reference/images): Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit().
+
+## GPU Cloud Providers
+
+- [fal.ai (GPU)](https://fal.ai/pricing): Fastest diffusion inference engine. 1000+ hosted models.
+  - docs: https://docs.fal.ai
+- [Lambda Labs](https://lambdalabs.com): On-demand A100 and H100 GPUs. Competitive pricing (~$1.10/hr A100 80GB).
+  - docs: https://docs.lambdalabs.com
+- [Modal](https://modal.com): Serverless Python GPU cloud. Sub-second cold starts.
+  - docs: https://modal.com/docs
+- [Replicate](https://replicate.com): Serverless model hosting for open-source image models.
+  - docs: https://replicate.com/docs
+- [RunPod](https://www.runpod.io): GPU pods and serverless endpoints. 48% of serverless cold starts under 200ms.
+  - docs: https://docs.runpod.io
+- [Together AI](https://www.together.ai): Inference API for 200+ open models.
+  - docs: https://www.together.ai/inference
+
+## Image Storage and Delivery
+
+- [Backblaze B2](https://www.backblaze.com/cloud-storage): S3-compatible object storage at low cost. Free egress via Cloudflare.
+  - docs: https://www.backblaze.com/docs/cloud-storage-s3-compatible-api
+  - b2 integration: https://www.backblaze.com/docs/cloud-storage-s3-compatible-api
+- [Cloudflare Images](https://developers.cloudflare.com/images/): Image CDN on Cloudflare's global network. Pre-defined variants for transformations.
+- [Cloudinary](https://cloudinary.com): Enterprise image/video CDN with AI-powered transformations.
+  - docs: https://cloudinary.com/documentation
+- [Imgix](https://imgix.com): Real-time image processing CDN. URL-parameter-based transforms. Connects to existing S3/GCS storage.
+  - docs: https://docs.imgix.com
+
+## Evaluation and Observability
+
+- [pytorch-fid](https://github.com/mseitzer/pytorch-fid): PyTorch FID (Fréchet Inception Distance) implementation. Measures distribution similarity between real and generated images.
+- [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): Comprehensive image quality toolbox. PSNR, SSIM, LPIPS, FID, NIQE, MUSIQ, TOPIQ, NIMA, BRISQUE, and more.
+- [CLIP Score](https://github.com/Lightning-AI/torchmetrics): Measures semantic alignment between text prompts and generated images using CLIP embeddings. Available via torchmetrics.multimodal.CLIPScore.
+- [ImageReward](https://github.com/THUDM/ImageReward): First general-purpose human preference reward model for T2I (NeurIPS 2023). Trained on 137k expert comparison pairs.
+  - docs: https://arxiv.org/abs/2304.05977
+- [torch-fidelity](https://github.com/toshas/torch-fidelity): High-fidelity ISC, FID, KID, and PRC metrics. Supports InceptionV3, CLIP, DINOv2, VGG16 feature extractors.
+  - docs: https://torch-fidelity.readthedocs.io/
+
+## Templates and Example Projects
+
+- [B2 Background Removal with Transformers.js](https://github.com/backblaze-b2-samples/b2-transformerjs-background-removal): Browser-based background removal using Transformers.js with Backblaze B2 storage.
+  - b2 integration: https://github.com/backblaze-b2-samples/b2-transformerjs-background-removal
+- [B2 Image Generation Prompt Flow](https://github.com/backblaze-b2-samples/image-generation-prompt-flow): Image generation pipeline with prompt flow and Backblaze B2 cloud storage integration.
+  - b2 integration: https://github.com/backblaze-b2-samples/image-generation-prompt-flow
+- [HuggingFace Diffusers Examples](https://github.com/huggingface/diffusers/tree/main/examples): Official scripts for DreamBooth, LoRA fine-tuning, ControlNet training, and more.
+- [HuggingFace Spaces](https://huggingface.co/spaces): Free hosting for Gradio and Streamlit ML demos. Thousands of image generation demos.
+  - docs: https://huggingface.co/docs/hub/spaces-sdks-gradio
+- [OpenAI Cookbook (GPT Image)](https://cookbook.openai.com/examples/generate_images_with_gpt_image): Official notebooks for image generation and editing with gpt-image-1.
+- [Replicate Text-to-Image Collection](https://replicate.com/collections/text-to-image): Curated runnable models with inline API code examples.
