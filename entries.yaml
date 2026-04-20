@@ -69,6 +69,17 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Runware
+  url: https://runware.ai
+  docs_url: https://runware.ai/docs/en/image-inference/introduction
+  description: Image generation API serving 400k+ models via proprietary Sonic Inference Engine. Text-to-image, inpainting, outpainting, upscaling. Pay-per-image pricing with $2 free trial.
+  category: text-to-image-apis
+  sdks:
+    - {language: Python, url: https://pypi.org/project/runware/}
+    - {language: JS, url: https://github.com/Runware/sdk-js}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: Midjourney
   url: https://www.midjourney.com
   docs_url: https://docs.midjourney.com
@@ -277,6 +288,35 @@
   github: QwenLM/Qwen-Image
   license: Apache-2.0
   tags: [text-rendering]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Z-Image
+  url: https://github.com/Tongyi-MAI/Z-Image
+  docs_url: https://huggingface.co/Tongyi-MAI/Z-Image-Turbo
+  description: 6B param T2I model family from Alibaba Tongyi-MAI. Variants include Turbo (sub-second inference), Omni-Base (gen+edit), and Edit. Diffusers-native, Apache-2.0.
+  category: open-source-models
+  github: Tongyi-MAI/Z-Image
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Chroma
+  url: https://huggingface.co/lodestones/Chroma
+  docs_url: https://huggingface.co/docs/diffusers/en/api/pipelines/chroma
+  description: 8.9B FLUX-based open T2I model. Supports text-to-image, image-to-image, and inpainting via diffusers ChromaPipeline. Apache-2.0, designed as a finetuning base.
+  category: open-source-models
+  license: Apache-2.0
+  tags: [flux]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: HunyuanImage 3.0
+  url: https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
+  docs_url: https://huggingface.co/tencent/HunyuanImage-3.0
+  description: 80B MoE T2I model from Tencent (13B params activated per token). Multimodal understanding and generation. Instruct-distilled variant released Jan 2026. Tencent Community License.
+  category: open-source-models
+  github: Tencent-Hunyuan/HunyuanImage-3.0
   b2_integration: ""
   last_verified: 2026-04-18
 

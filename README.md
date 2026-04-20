@@ -42,6 +42,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Midjourney](https://www.midjourney.com)** – Official API released late 2025. Enterprise/Pro plan holders only; no public self-service access. [Docs](https://docs.midjourney.com)
 - **[OpenAI GPT Image](https://platform.openai.com/docs/guides/images)** – gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026. [Docs](https://platform.openai.com/docs/api-reference/images) | SDK: Python, Node
 - **[Recraft AI](https://www.recraft.ai/api)** – Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface. [Docs](https://www.recraft.ai/docs/api-reference/getting-started)
+- **[Runware](https://runware.ai)** – Image generation API serving 400k+ models via proprietary Sonic Inference Engine. Text-to-image, inpainting, outpainting, upscaling. Pay-per-image pricing with $2 free trial. [Docs](https://runware.ai/docs/en/image-inference/introduction) | SDK: [Python](https://pypi.org/project/runware/), [JS](https://github.com/Runware/sdk-js)
 - **[Stability AI](https://stability.ai)** – Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting. [Docs](https://platform.stability.ai/docs/api-reference)
 - **[xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation)** – grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface. [Docs](https://docs.x.ai/developers/rest-api-reference/inference/images) | SDK: Python (xai-sdk), JS (openai-compatible)
 
@@ -55,16 +56,19 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[LCM / LCM-LoRA](https://github.com/luosiallen/latent-consistency-model)** – Latent Consistency Models enabling 2-4 step generation. LCM-LoRA is a lightweight ~100MB adapter for any SDXL model. [Docs](https://huggingface.co/docs/diffusers/using-diffusers/inference_with_lcm)
 - **[PixArt-Alpha / PixArt-Sigma](https://github.com/PixArt-alpha/PixArt-alpha)** – DiT-based T2I at 10.8% of SD1.5 training cost. Near-commercial quality. [Docs](https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS)
 - **[Kandinsky 3](https://github.com/ai-forever/Kandinsky-3)** – Open-source T2I from AI Forever. 2x larger U-Net and 10x larger text encoder vs v2.x. [Docs](https://huggingface.co/kandinsky-community/kandinsky-3)
+- **[Chroma](https://huggingface.co/lodestones/Chroma)** – 8.9B FLUX-based open T2I model. Supports text-to-image, image-to-image, and inpainting via diffusers ChromaPipeline. Apache-2.0, designed as a finetuning base. [Docs](https://huggingface.co/docs/diffusers/en/api/pipelines/chroma)
 - **[FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev)** – 12B param guidance-distilled model. High quality, competitive with closed-source. Non-commercial license.
 - **[FLUX.2 [dev]](https://huggingface.co/black-forest-labs/FLUX.2-dev)** – 32B param model with generation, editing, and multi-reference combining.
 - **[GLM-Image](https://github.com/zai-org/GLM-Image)** – 16B hybrid autoregressive + diffusion model from Zhipu AI. Excels at text rendering inside images. Supports T2I and I2I. Runs via GlmImagePipeline in diffusers. [Docs](https://huggingface.co/zai-org/GLM-Image)
 - **[HiDream-I1](https://github.com/HiDream-ai/HiDream-I1)** – 17B sparse diffusion transformer for text-to-image. Three variants (Full, Dev, Fast). Top benchmark scores; diffusers-native via HiDreamImagePipeline. [Docs](https://huggingface.co/HiDream-ai/HiDream-I1-Full)
+- **[HunyuanImage 3.0](https://github.com/Tencent-Hunyuan/HunyuanImage-3.0)** – 80B MoE T2I model from Tencent (13B params activated per token). Multimodal understanding and generation. Instruct-distilled variant released Jan 2026. Tencent Community License. [Docs](https://huggingface.co/tencent/HunyuanImage-3.0)
 - **[Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic)** – Aesthetic-focused model fine-tuned on SDXL architecture.
 - **[Qwen-Image](https://github.com/QwenLM/Qwen-Image)** – Alibaba's open-weight T2I family. Qwen-Image-2512 (text-to-image) and Qwen-Image-Edit variants. Strong text rendering including Chinese. Diffusers-native, Apache 2.0. [Docs](https://huggingface.co/Qwen/Qwen-Image-2512)
 - **[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo)** – Adversarial distillation of SDXL enabling single-step generation.
 - **[Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)** – 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
 - **[Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)** – MMDiT architecture with three text encoders (including T5-XXL). Highest-quality Stability open model. [Docs](https://huggingface.co/stabilityai/stable-diffusion-3.5-large-turbo)
 - **[Stable Diffusion XL (SDXL)](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)** – Native 1024x1024. Improved text-in-image and limb generation. Base + refiner pipeline.
+- **[Z-Image](https://github.com/Tongyi-MAI/Z-Image)** – 6B param T2I model family from Alibaba Tongyi-MAI. Variants include Turbo (sub-second inference), Omni-Base (gen+edit), and Edit. Diffusers-native, Apache-2.0. [Docs](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo)
 
 ## Open Source Frameworks and UIs
 
