@@ -320,6 +320,26 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Lumina-Image 2.0
+  url: https://github.com/Alpha-VLLM/Lumina-Image-2.0
+  docs_url: https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0
+  description: 2.6B DiT text-to-image model using Gemma-2-2B text encoder. Diffusers-native via Lumina2Pipeline. Supports fine-tuning and controllable generation. Apache-2.0.
+  category: open-source-models
+  github: Alpha-VLLM/Lumina-Image-2.0
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: OmniGen2
+  url: https://github.com/VectorSpaceLab/OmniGen2
+  docs_url: https://huggingface.co/OmniGen2/OmniGen2
+  description: Unified T2I + instruction-based image editing model. Dual-path architecture with separate autoregressive LLM and diffusion transformer decoders. pip-installable, Apache-2.0.
+  category: open-source-models
+  github: VectorSpaceLab/OmniGen2
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Frameworks and UIs ----------------
 
 - name: ComfyUI
@@ -425,6 +445,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: diffusion-pipe
+  url: https://github.com/tdrussell/diffusion-pipe
+  description: Pipeline-parallel training script for diffusion models across multiple GPUs. Supports FLUX.1/2, Chroma, SDXL, SD3, HiDream, Qwen-Image, Z-Image, and Hunyuan. LoRA, full fine-tuning, and multi-GPU via DeepSpeed.
+  category: frameworks-and-uis
+  github: tdrussell/diffusion-pipe
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: ComfyUI Deploy
+  url: https://github.com/BennyKok/comfyui-deploy
+  docs_url: https://docs.comfydeploy.com/
+  description: Open-source deployment platform for ComfyUI workflows. Exposes versioned REST APIs for production and staging. Supports serverless GPU backends and self-hosting on Vercel/Neon.
+  category: frameworks-and-uis
+  github: BennyKok/comfyui-deploy
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Image Editing and Enhancement ----------------
 
 - name: ControlNet
@@ -471,6 +510,16 @@
   license: AGPL-3.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: Krita AI Diffusion
+  url: https://github.com/Acly/krita-ai-diffusion
+  docs_url: https://docs.interstice.cloud/
+  description: Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious.
+  category: image-editing-and-enhancement
+  github: Acly/krita-ai-diffusion
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- SDKs and Developer Tooling ----------------
 

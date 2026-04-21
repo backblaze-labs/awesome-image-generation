@@ -56,6 +56,10 @@
   - docs: https://huggingface.co/HiDream-ai/HiDream-I1-Full
 - [HunyuanImage 3.0](https://github.com/Tencent-Hunyuan/HunyuanImage-3.0): 80B MoE T2I model from Tencent (13B params activated per token). Multimodal understanding and generation. Instruct-distilled variant released Jan 2026. Tencent Community License.
   - docs: https://huggingface.co/tencent/HunyuanImage-3.0
+- [Lumina-Image 2.0](https://github.com/Alpha-VLLM/Lumina-Image-2.0): 2.6B DiT text-to-image model using Gemma-2-2B text encoder. Diffusers-native via Lumina2Pipeline. Supports fine-tuning and controllable generation. Apache-2.0.
+  - docs: https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0
+- [OmniGen2](https://github.com/VectorSpaceLab/OmniGen2): Unified T2I + instruction-based image editing model. Dual-path architecture with separate autoregressive LLM and diffusion transformer decoders. pip-installable, Apache-2.0.
+  - docs: https://huggingface.co/OmniGen2/OmniGen2
 - [Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic): Aesthetic-focused model fine-tuned on SDXL architecture.
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image): Alibaba's open-weight T2I family. Qwen-Image-2512 (text-to-image) and Qwen-Image-Edit variants. Strong text rendering including Chinese. Diffusers-native, Apache 2.0.
   - docs: https://huggingface.co/Qwen/Qwen-Image-2512
@@ -78,9 +82,12 @@
   - docs: https://invoke.ai
 - [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge): Fork of AUTOMATIC1111 with improved GPU memory management and performance. Compatible with A1111 extensions.
 - [AI Toolkit (ostris)](https://github.com/ostris/ai-toolkit): All-in-one training suite for diffusion models. GUI and CLI. Trains FLUX.1/2, SDXL, SD 1.5, Qwen-Image, HiDream, and video models on consumer hardware.
+- [ComfyUI Deploy](https://github.com/BennyKok/comfyui-deploy): Open-source deployment platform for ComfyUI workflows. Exposes versioned REST APIs for production and staging. Supports serverless GPU backends and self-hosting on Vercel/Neon.
+  - docs: https://docs.comfydeploy.com/
 - [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager): Extension for ComfyUI that installs, updates, and manages 800+ custom nodes via a GUI or CLI. Auto-installed with ComfyUI Desktop.
   - docs: https://registry.comfy.org
 - [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio): Python diffusion engine by ModelScope. Inference and LoRA training for FLUX.1/2, Qwen-Image, Z-Image, and JoyAI-Image. Low-VRAM optimizations, ControlNet, IP-Adapter support.
+- [diffusion-pipe](https://github.com/tdrussell/diffusion-pipe): Pipeline-parallel training script for diffusion models across multiple GPUs. Supports FLUX.1/2, Chroma, SDXL, SD3, HiDream, Qwen-Image, Z-Image, and Hunyuan. LoRA, full fine-tuning, and multi-GPU via DeepSpeed.
 - [kohya_ss](https://github.com/bmaltais/kohya_ss): Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
 - [OneTrainer](https://github.com/Nerogar/OneTrainer): GUI and CLI training suite for diffusion models. Supports FLUX.1/2, Chroma, SD 1.5/2/3/XL, SDXL, PixArt, HiDream, and Hunyuan Video.
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp): Diffusion model inference in pure C/C++ with no external dependencies. Runs SD 1.x/2.x/XL/3.5, FLUX.1/2, Chroma, Qwen-Image, and Z-Image. CPU/CUDA/Metal/Vulkan backends.
@@ -94,6 +101,8 @@
   - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
 - [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
   - docs: https://github.com/Mikubill/sd-webui-controlnet
+- [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious.
+  - docs: https://docs.interstice.cloud/
 - [Upscayl](https://github.com/upscayl/upscayl): Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU.
   - docs: https://upscayl.org
 
