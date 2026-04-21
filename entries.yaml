@@ -146,6 +146,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: SiliconFlow
+  url: https://siliconflow.cn
+  docs_url: https://docs.siliconflow.cn/en/api-reference/images/images-generations
+  description: OpenAI-compatible inference API hosting FLUX, Qwen-Image, Kolors, and other open-weight image models. Text-to-image and image editing endpoints. Free tier available.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Novita AI
+  url: https://novita.ai
+  docs_url: https://novita.ai/docs/api-reference/api-reference-overview
+  description: Serverless API with 200+ image models including FLUX.1 Kontext, Hunyuan Image 3, Seedream, and SD variants. Text-to-image, img2img, inpainting, ControlNet. Python and JS SDKs.
+  category: text-to-image-apis
+  github: novitalabs/python-sdk
+  sdks:
+    - {language: Python, url: https://github.com/novitalabs/python-sdk}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -521,6 +540,15 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: ComfyUI Impact Pack
+  url: https://github.com/ltdrdata/ComfyUI-Impact-Pack
+  description: ComfyUI custom node pack for detection-based face detailing, iterative upscaling, segmentation masking, and regional sampling. FaceDetailer node is widely used for portrait refinement.
+  category: image-editing-and-enhancement
+  github: ltdrdata/ComfyUI-Impact-Pack
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: HuggingFace Diffusers
@@ -729,6 +757,14 @@
   github: Lightning-AI/torchmetrics
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Artificial Analysis Image Leaderboard
+  url: https://artificialanalysis.ai/image/leaderboard/text-to-image
+  docs_url: https://artificialanalysis.ai/image
+  description: Elo-rating leaderboard for text-to-image models based on blind user comparisons. Covers quality, speed, and price. Separate rankings for open-weight and API-only models.
+  category: evaluation-and-observability
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Templates and Example Projects ----------------
 

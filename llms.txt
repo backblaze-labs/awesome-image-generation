@@ -22,12 +22,16 @@
   - docs: https://docs.leonardo.ai/docs/getting-started
 - [Midjourney](https://www.midjourney.com): Official API released late 2025. Enterprise/Pro plan holders only; no public self-service access.
   - docs: https://docs.midjourney.com
+- [Novita AI](https://novita.ai): Serverless API with 200+ image models including FLUX.1 Kontext, Hunyuan Image 3, Seedream, and SD variants. Text-to-image, img2img, inpainting, ControlNet. Python and JS SDKs.
+  - docs: https://novita.ai/docs/api-reference/api-reference-overview
 - [OpenAI GPT Image](https://platform.openai.com/docs/guides/images): gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026.
   - docs: https://platform.openai.com/docs/api-reference/images
 - [Recraft AI](https://www.recraft.ai/api): Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface.
   - docs: https://www.recraft.ai/docs/api-reference/getting-started
 - [Runware](https://runware.ai): Image generation API serving 400k+ models via proprietary Sonic Inference Engine. Text-to-image, inpainting, outpainting, upscaling. Pay-per-image pricing with $2 free trial.
   - docs: https://runware.ai/docs/en/image-inference/introduction
+- [SiliconFlow](https://siliconflow.cn): OpenAI-compatible inference API hosting FLUX, Qwen-Image, Kolors, and other open-weight image models. Text-to-image and image editing endpoints. Free tier available.
+  - docs: https://docs.siliconflow.cn/en/api-reference/images/images-generations
 - [Stability AI](https://stability.ai): Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting.
   - docs: https://platform.stability.ai/docs/api-reference
 - [xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation): grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface.
@@ -99,6 +103,7 @@
   - docs: https://replicate.com/nightmareai/real-esrgan
 - [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter): Lightweight adapter (~100MB) for image-based prompting. New cross-attention layers for image feature conditioning.
   - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
+- [ComfyUI Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack): ComfyUI custom node pack for detection-based face detailing, iterative upscaling, segmentation masking, and regional sampling. FaceDetailer node is widely used for portrait refinement.
 - [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
   - docs: https://github.com/Mikubill/sd-webui-controlnet
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious.
@@ -155,6 +160,8 @@
   - docs: https://arxiv.org/abs/2304.05977
 - [torch-fidelity](https://github.com/toshas/torch-fidelity): High-fidelity ISC, FID, KID, and PRC metrics. Supports InceptionV3, CLIP, DINOv2, VGG16 feature extractors.
   - docs: https://torch-fidelity.readthedocs.io/
+- [Artificial Analysis Image Leaderboard](https://artificialanalysis.ai/image/leaderboard/text-to-image): Elo-rating leaderboard for text-to-image models based on blind user comparisons. Covers quality, speed, and price. Separate rankings for open-weight and API-only models.
+  - docs: https://artificialanalysis.ai/image
 
 ## Templates and Example Projects
 
