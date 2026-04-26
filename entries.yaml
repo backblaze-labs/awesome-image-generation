@@ -607,6 +607,16 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: prompt-to-asset
+  url: https://github.com/MohamedAbdallah-14/prompt-to-asset
+  description: MCP server routing image generation prompts across 30+ models (DALL-E, Flux, Stable Diffusion, Midjourney, and more) via a unified API.
+  category: sdks-and-developer-tooling
+  github: MohamedAbdallah-14/prompt-to-asset
+  sdks:
+    - {language: Node (npm install -g prompt-to-asset)}
+  b2_integration: ""
+  last_verified: 2026-04-26
+
 # ---------------- GPU Cloud Providers ----------------
 
 - name: RunPod
