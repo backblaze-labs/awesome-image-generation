@@ -173,6 +173,24 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Pollinations.ai
+  url: https://pollinations.ai
+  docs_url: https://raw.githubusercontent.com/pollinations/pollinations/master/APIDOCS.md
+  description: Free open-source generative AI platform. Image generation via GET endpoint (FLUX, Turbo, Kontext). Anonymous tier; register for watermark-free access and higher rate limits.
+  category: text-to-image-apis
+  github: pollinations/pollinations
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: Segmind
+  url: https://www.segmind.com
+  docs_url: https://docs.segmind.com/readme.md
+  description: Serverless REST API for 150+ image and video models including FLUX, GPT Image, Imagen 4, Kling, and Wan. PixelFlow workflow builder for chaining models. Free credits on signup.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -377,6 +395,16 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: ERNIE-Image
+  url: https://github.com/baidu/ERNIE-Image
+  docs_url: https://huggingface.co/baidu/ERNIE-Image
+  description: 8B single-stream DiT text-to-image model from Baidu. Strong text rendering for posters and infographics. Diffusers-native via ErnieImagePipeline. Turbo variant for 24GB VRAM. Apache-2.0.
+  category: open-source-models
+  github: baidu/ERNIE-Image
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Frameworks and UIs ----------------
 
 - name: ComfyUI
@@ -509,6 +537,25 @@
   license: AGPL-3.0
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: SimpleTuner
+  url: https://github.com/bghira/SimpleTuner
+  description: General fine-tuning kit for diffusion models. Supports FLUX.1/2, SDXL, SD3, and more. Multi-GPU training, aspect bucketing, embedding caching, and a web UI. AGPL-3.0.
+  category: frameworks-and-uis
+  github: bghira/SimpleTuner
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: comfy-pack
+  url: https://github.com/bentoml/comfy-pack
+  docs_url: https://www.bentoml.com/blog/comfy-pack-serving-comfyui-workflows-as-apis
+  description: Toolkit for locking, packaging, and deploying ComfyUI workflow environments. Bundles custom nodes, model hashes, and Python deps into a .cpack.zip. Serves workflows as REST APIs.
+  category: frameworks-and-uis
+  github: bentoml/comfy-pack
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Image Editing and Enhancement ----------------
 
