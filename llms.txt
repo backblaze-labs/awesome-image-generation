@@ -22,6 +22,8 @@
   - docs: https://docs.leonardo.ai/docs/getting-started
 - [Midjourney](https://www.midjourney.com): Official API released late 2025. Enterprise/Pro plan holders only; no public self-service access.
   - docs: https://docs.midjourney.com
+- [MiniMax Image API](https://platform.minimax.io/docs/guides/image-generation): Text-to-image and image-to-image REST API from MiniMax. image-01 model supports subject reference images, configurable aspect ratios, and batch generation up to 9 images per request.
+  - docs: https://platform.minimax.io/docs/guides/image-generation
 - [Novita AI](https://novita.ai): Serverless API with 200+ image models including FLUX.1 Kontext, Hunyuan Image 3, Seedream, and SD variants. Text-to-image, img2img, inpainting, ControlNet. Python and JS SDKs.
   - docs: https://novita.ai/docs/api-reference/api-reference-overview
 - [OpenAI GPT Image](https://platform.openai.com/docs/guides/images): gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026.
@@ -67,6 +69,8 @@
 - [Playground v2.5](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic): Aesthetic-focused model fine-tuned on SDXL architecture.
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image): Alibaba's open-weight T2I family. Qwen-Image-2512 (text-to-image) and Qwen-Image-Edit variants. Strong text rendering including Chinese. Diffusers-native, Apache 2.0.
   - docs: https://huggingface.co/Qwen/Qwen-Image-2512
+- [SANA](https://github.com/NVlabs/Sana): Efficient high-resolution T2I model from NVIDIA. Linear DiT architecture with DC-AE (32x compression). Generates 4K images 20x smaller and 100x faster than Flux-12B. Diffusers-native via SanaPipeline. Apache-2.0.
+  - docs: https://huggingface.co/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers
 - [SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo): Adversarial distillation of SDXL enabling single-step generation.
 - [Stable Diffusion 1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5): 860M UNet, runs on consumer GPUs. Foundation for massive community ecosystem of LoRAs, fine-tunes, and extensions.
 - [Stable Diffusion 3.5 Large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large): MMDiT architecture with three text encoders (including T5-XXL). Highest-quality Stability open model.
@@ -92,6 +96,7 @@
   - docs: https://registry.comfy.org
 - [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio): Python diffusion engine by ModelScope. Inference and LoRA training for FLUX.1/2, Qwen-Image, Z-Image, and JoyAI-Image. Low-VRAM optimizations, ControlNet, IP-Adapter support.
 - [diffusion-pipe](https://github.com/tdrussell/diffusion-pipe): Pipeline-parallel training script for diffusion models across multiple GPUs. Supports FLUX.1/2, Chroma, SDXL, SD3, HiDream, Qwen-Image, Z-Image, and Hunyuan. LoRA, full fine-tuning, and multi-GPU via DeepSpeed.
+- [Fluxgym](https://github.com/cocktailpeanut/fluxgym): Minimal Gradio web UI for FLUX.1 LoRA training on low VRAM (12GB–20GB). Wraps Kohya scripts with automatic image resizing, HuggingFace publish, and 100% Kohya feature access via Advanced tab.
 - [kohya_ss](https://github.com/bmaltais/kohya_ss): Gradio-based GUI for Kohya's SD training scripts. Supports LoRA, DreamBooth, and fine-tuning for SD 1.5, SDXL, SD3, and FLUX.1.
 - [OneTrainer](https://github.com/Nerogar/OneTrainer): GUI and CLI training suite for diffusion models. Supports FLUX.1/2, Chroma, SD 1.5/2/3/XL, SDXL, PixArt, HiDream, and Hunyuan Video.
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp): Diffusion model inference in pure C/C++ with no external dependencies. Runs SD 1.x/2.x/XL/3.5, FLUX.1/2, Chroma, Qwen-Image, and Z-Image. CPU/CUDA/Metal/Vulkan backends.
@@ -104,6 +109,7 @@
 - [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter): Lightweight adapter (~100MB) for image-based prompting. New cross-attention layers for image feature conditioning.
   - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
 - [ComfyUI Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack): ComfyUI custom node pack for detection-based face detailing, iterative upscaling, segmentation masking, and regional sampling. FaceDetailer node is widely used for portrait refinement.
+- [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux): ComfyUI custom node set for generating ControlNet hint images. Preprocessors include Canny, HED, depth estimation, pose detection, segmentation, and 20+ others. Apache-2.0.
 - [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
   - docs: https://github.com/Mikubill/sd-webui-controlnet
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion): Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious.
@@ -121,6 +127,8 @@
   - docs: https://replicate.com/docs
 - [fal.ai SDK](https://github.com/fal-ai/fal-js): Python and JS SDKs for serverless inference. Also a Vercel AI SDK provider.
   - docs: https://docs.fal.ai
+- [HuggingFace Inference Providers](https://huggingface.co/docs/inference-providers): Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers.
+  - docs: https://huggingface.co/docs/inference-providers/index
 - [OpenAI SDK](https://platform.openai.com/docs/api-reference/images): Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit().
 
 ## GPU Cloud Providers

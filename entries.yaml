@@ -165,6 +165,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: MiniMax Image API
+  url: https://platform.minimax.io/docs/guides/image-generation
+  docs_url: https://platform.minimax.io/docs/guides/image-generation
+  description: Text-to-image and image-to-image REST API from MiniMax. image-01 model supports subject reference images, configurable aspect ratios, and batch generation up to 9 images per request.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -359,6 +367,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: SANA
+  url: https://github.com/NVlabs/Sana
+  docs_url: https://huggingface.co/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers
+  description: Efficient high-resolution T2I model from NVIDIA. Linear DiT architecture with DC-AE (32x compression). Generates 4K images 20x smaller and 100x faster than Flux-12B. Diffusers-native via SanaPipeline. Apache-2.0.
+  category: open-source-models
+  github: NVlabs/Sana
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Frameworks and UIs ----------------
 
 - name: ComfyUI
@@ -473,6 +491,15 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Fluxgym
+  url: https://github.com/cocktailpeanut/fluxgym
+  description: Minimal Gradio web UI for FLUX.1 LoRA training on low VRAM (12GB–20GB). Wraps Kohya scripts with automatic image resizing, HuggingFace publish, and 100% Kohya feature access via Advanced tab.
+  category: frameworks-and-uis
+  github: cocktailpeanut/fluxgym
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 - name: ComfyUI Deploy
   url: https://github.com/BennyKok/comfyui-deploy
   docs_url: https://docs.comfydeploy.com/
@@ -549,6 +576,15 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: comfyui_controlnet_aux
+  url: https://github.com/Fannovel16/comfyui_controlnet_aux
+  description: ComfyUI custom node set for generating ControlNet hint images. Preprocessors include Canny, HED, depth estimation, pose detection, segmentation, and 20+ others. Apache-2.0.
+  category: image-editing-and-enhancement
+  github: Fannovel16/comfyui_controlnet_aux
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: HuggingFace Diffusers
@@ -606,6 +642,17 @@
     - {language: Python (pip install gradio)}
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: HuggingFace Inference Providers
+  url: https://huggingface.co/docs/inference-providers
+  docs_url: https://huggingface.co/docs/inference-providers/index
+  description: Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers.
+  category: sdks-and-developer-tooling
+  sdks:
+    - {language: Python (pip install huggingface_hub)}
+    - {language: JS (npm install @huggingface/inference)}
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- GPU Cloud Providers ----------------
 
