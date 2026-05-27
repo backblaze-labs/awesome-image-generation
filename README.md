@@ -113,6 +113,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion)** – Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious. [Docs](https://docs.interstice.cloud/)
 - **[Upscayl](https://github.com/upscayl/upscayl)** – Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU. [Docs](https://upscayl.org)
 
+- **[PhotoRestore.ai](https://photorestore.ai)** – Online AI photo restoration service. Repairs scratches, tears, fading, and colorizes black-and-white photos automatically. Free trial available.
+
 ## SDKs and Developer Tooling
 
 > Libraries and client SDKs for integrating image generation into apps.
