@@ -191,6 +191,31 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: ModelsLab
+  url: https://modelslab.com
+  docs_url: https://docs.modelslab.com/image-generation
+  description: REST API for 10k+ image models including FLUX, SDXL, SD 1.5, LoRA fine-tunes, and community variants. Text-to-image, img2img, inpainting, ControlNet. Python, JS, PHP, Go, Dart SDKs.
+  category: text-to-image-apis
+  sdks:
+    - {language: Python}
+    - {language: JS/TS}
+    - {language: PHP}
+    - {language: Go}
+    - {language: Dart}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Prodia
+  url: https://prodia.com
+  docs_url: https://docs.prodia.com
+  description: Serverless image generation API with 50+ models including FLUX.1/2, Recraft V4, and SD variants. 190ms latency for FLUX. Sync and async endpoints. JavaScript (prodia-js) and Python SDKs.
+  category: text-to-image-apis
+  sdks:
+    - {language: JS, url: https://github.com/prodialabs/prodia-js}
+    - {language: Python}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
@@ -632,6 +657,15 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: chaiNNer
+  url: https://github.com/chaiNNer-org/chaiNNer
+  description: Node-based GUI for chaining image processing tasks. Supports PyTorch, NCNN, ONNX, and TensorRT upscaling models, background removal, and batch processing. Cross-platform with CUDA/ROCm/MPS backends.
+  category: image-editing-and-enhancement
+  github: chaiNNer-org/chaiNNer
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: HuggingFace Diffusers
@@ -700,6 +734,16 @@
     - {language: JS (npm install @huggingface/inference)}
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Cog
+  url: https://github.com/replicate/cog
+  docs_url: https://cog.run
+  description: Open-source tool for packaging ML models into Docker containers. Defines environment via cog.yaml, auto-generates a REST prediction API (Rust/Axum server), and deploys to Replicate or any Docker host.
+  category: sdks-and-developer-tooling
+  github: replicate/cog
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 # ---------------- GPU Cloud Providers ----------------
 

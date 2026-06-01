@@ -24,12 +24,16 @@
   - docs: https://docs.midjourney.com
 - [MiniMax Image API](https://platform.minimax.io/docs/guides/image-generation): Text-to-image and image-to-image REST API from MiniMax. image-01 model supports subject reference images, configurable aspect ratios, and batch generation up to 9 images per request.
   - docs: https://platform.minimax.io/docs/guides/image-generation
+- [ModelsLab](https://modelslab.com): REST API for 10k+ image models including FLUX, SDXL, SD 1.5, LoRA fine-tunes, and community variants. Text-to-image, img2img, inpainting, ControlNet. Python, JS, PHP, Go, Dart SDKs.
+  - docs: https://docs.modelslab.com/image-generation
 - [Novita AI](https://novita.ai): Serverless API with 200+ image models including FLUX.1 Kontext, Hunyuan Image 3, Seedream, and SD variants. Text-to-image, img2img, inpainting, ControlNet. Python and JS SDKs.
   - docs: https://novita.ai/docs/api-reference/api-reference-overview
 - [OpenAI GPT Image](https://platform.openai.com/docs/guides/images): gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026.
   - docs: https://platform.openai.com/docs/api-reference/images
 - [Pollinations.ai](https://pollinations.ai): Free open-source generative AI platform. Image generation via GET endpoint (FLUX, Turbo, Kontext). Anonymous tier; register for watermark-free access and higher rate limits.
   - docs: https://raw.githubusercontent.com/pollinations/pollinations/master/APIDOCS.md
+- [Prodia](https://prodia.com): Serverless image generation API with 50+ models including FLUX.1/2, Recraft V4, and SD variants. 190ms latency for FLUX. Sync and async endpoints. JavaScript (prodia-js) and Python SDKs.
+  - docs: https://docs.prodia.com
 - [Recraft AI](https://www.recraft.ai/api): Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface.
   - docs: https://www.recraft.ai/docs/api-reference/getting-started
 - [Runware](https://runware.ai): Image generation API serving 400k+ models via proprietary Sonic Inference Engine. Text-to-image, inpainting, outpainting, upscaling. Pay-per-image pricing with $2 free trial.
@@ -117,6 +121,7 @@
   - docs: https://replicate.com/nightmareai/real-esrgan
 - [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter): Lightweight adapter (~100MB) for image-based prompting. New cross-attention layers for image feature conditioning.
   - docs: https://huggingface.co/docs/diffusers/main/en/using-diffusers/ip_adapter
+- [chaiNNer](https://github.com/chaiNNer-org/chaiNNer): Node-based GUI for chaining image processing tasks. Supports PyTorch, NCNN, ONNX, and TensorRT upscaling models, background removal, and batch processing. Cross-platform with CUDA/ROCm/MPS backends.
 - [ComfyUI Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack): ComfyUI custom node pack for detection-based face detailing, iterative upscaling, segmentation masking, and regional sampling. FaceDetailer node is widely used for portrait refinement.
 - [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux): ComfyUI custom node set for generating ControlNet hint images. Preprocessors include Canny, HED, depth estimation, pose detection, segmentation, and 20+ others. Apache-2.0.
 - [ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux): Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux.
@@ -136,6 +141,8 @@
   - docs: https://replicate.com/docs
 - [fal.ai SDK](https://github.com/fal-ai/fal-js): Python and JS SDKs for serverless inference. Also a Vercel AI SDK provider.
   - docs: https://docs.fal.ai
+- [Cog](https://github.com/replicate/cog): Open-source tool for packaging ML models into Docker containers. Defines environment via cog.yaml, auto-generates a REST prediction API (Rust/Axum server), and deploys to Replicate or any Docker host.
+  - docs: https://cog.run
 - [HuggingFace Inference Providers](https://huggingface.co/docs/inference-providers): Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers.
   - docs: https://huggingface.co/docs/inference-providers/index
 - [OpenAI SDK](https://platform.openai.com/docs/api-reference/images): Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit().
