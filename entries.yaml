@@ -927,6 +927,16 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: face-twin-mcp
+  url: https://github.com/forrestmill-cmd/face-twin-mcp
+  description: MCP server and reference integration for creating FaceTwin / Prank My Face AI doppelganger prank links from public image URLs.
+  category: templates-and-example-projects
+  github: forrestmill-cmd/face-twin-mcp
+  license: MIT
+  tags: [mcp, flux, image-editing, demo]
+  b2_integration: ""
+  last_verified: 2026-05-12
+
 - name: B2 Image Generation Prompt Flow
   url: https://github.com/backblaze-b2-samples/image-generation-prompt-flow
   description: Image generation pipeline with prompt flow and Backblaze B2 cloud storage integration.
