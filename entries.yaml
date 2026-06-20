@@ -133,6 +133,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: OpenPaths
+  url: https://openpaths.io/text-to-image
+  docs_url: https://openpaths.io/docs
+  description: OpenAI-compatible model router with image-generation endpoints across providers such as Netwrck, xAI, OpenAI, fal.ai, and Alibaba media models.
+  category: text-to-image-apis
+  github: lee101/openpaths
+  sdks:
+    - {language: Python (openai-compatible)}
+    - {language: JS (openai-compatible)}
+  b2_integration: ""
+  last_verified: 2026-06-20
+
 - name: Google Gemini Image API
   url: https://ai.google.dev/gemini-api/docs/image-generation
   docs_url: https://ai.google.dev/gemini-api/docs
