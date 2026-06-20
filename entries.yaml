@@ -904,6 +904,13 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: ImageBench
+  url: https://imagebench.ai
+  description: Benchmark and comparison site for text-to-image models with side-by-side outputs, pass-rate summaries, and methodology pages.
+  category: evaluation-and-observability
+  b2_integration: ""
+  last_verified: 2026-06-20
+
 # ---------------- Templates and Example Projects ----------------
 
 - name: OpenAI Cookbook (GPT Image)
