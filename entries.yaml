@@ -701,6 +701,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI GPT Image 2 SDK
+  url: https://github.com/runapi-ai/gpt-image-2-sdk
+  docs_url: https://runapi.ai/models/gpt-image-2
+  description: JavaScript, Python, Ruby, Go, and Java clients for GPT Image 2 text-to-image and image editing workflows on RunAPI.
+  category: sdks-and-developer-tooling
+  github: runapi-ai/gpt-image-2-sdk
+  sdks:
+    - {language: JavaScript (npm install @runapi.ai/gpt-image-2)}
+    - {language: Python (pip install runapi-gpt-image-2)}
+    - {language: Ruby (gem install runapi-gpt_image_2)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-06-25
+
 - name: fal.ai SDK
   url: https://github.com/fal-ai/fal-js
   docs_url: https://docs.fal.ai
