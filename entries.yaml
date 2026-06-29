@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: cv.cm
+  url: https://cv.cm/v
+  docs_url: https://cv.cm/api
+  description: "Generative-media REST API with gpt-image-2 and Seedream image generation plus queue-free Seedance 2.0 image-to-video. Free credit tier; no signup required to try the web studio."
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-06-30
+
 - name: Segmind
   url: https://www.segmind.com
   docs_url: https://docs.segmind.com/readme.md
