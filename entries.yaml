@@ -122,6 +122,19 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: DaoXE
+  url: https://daoxe.com
+  docs_url: https://github.com/seven7763/DaoXE-AI
+  description: "Multi-model multi-protocol AI API gateway with OpenAI-compatible image generation (`/v1/images/generations`) plus Chat Completions, Responses, and Anthropic Messages. Current catalog includes Flux, GPT Image, Imagen and more; not available in mainland China."
+  category: text-to-image-apis
+  github: seven7763/DaoXE-AI
+  sdks:
+    - {language: OpenAI SDK (Python/Node via base URL)}
+    - {language: cURL / Postman}
+  tags: [multi-model, multi-protocol, gateway]
+  b2_integration: ""
+  last_verified: 2026-07-13
+
 - name: xAI Image Generation API
   url: https://docs.x.ai/developers/model-capabilities/images/generation
   docs_url: https://docs.x.ai/developers/rest-api-reference/inference/images
