@@ -526,6 +526,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Off Grid AI Desktop
+  url: https://github.com/off-grid-ai/off-grid-ai-desktop
+  docs_url: https://getoffgridai.co/desktop
+  description: Local-first Mac app that runs Stable Diffusion on-device for image generation, fully offline. Bundles a Metal-accelerated diffusion engine so prompts never leave your machine.
+  category: frameworks-and-uis
+  github: off-grid-ai/off-grid-ai-desktop
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-07-09
+
 - name: DiffSynth-Studio
   url: https://github.com/modelscope/DiffSynth-Studio
   description: Python diffusion engine by ModelScope. Inference and LoRA training for FLUX.1/2, Qwen-Image, Z-Image, and JoyAI-Image. Low-VRAM optimizations, ControlNet, IP-Adapter support.
