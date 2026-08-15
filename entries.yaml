@@ -219,7 +219,7 @@
 - name: SandBase
   url: https://github.com/sandbaseai/cli
   docs_url: https://docs.sandbase.ai/models/
-  description: Unified CLI and MCP bridge for 2,000+ AI models and APIs, including image generation through FLUX, DALL-E, Ideogram, and Recraft with structured agent invocation.
+  description: Unified CLI and MCP bridge for 2,000+ AI models, including image generation through FLUX, DALL-E, Ideogram, and Recraft with structured agent invocation.
   category: text-to-image-apis
   github: sandbaseai/cli
   license: Apache-2.0
