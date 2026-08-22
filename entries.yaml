@@ -950,3 +950,11 @@
   category: templates-and-example-projects
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: dsh-labnana
+  url: https://github.com/exoticknight/dsh-labnana
+  description: Image generation client for DeepSeek Harness — text-to-image, image-to-image and precise editing via the Labnana API (NanoBanana Pro, GPT-Image-2, Wan2.7, Seedream).
+  category: sdks-and-developer-tooling
+  github: exoticknight/dsh-labnana
+  license: Apache-2.0
+  last_verified: 2026-08-22
