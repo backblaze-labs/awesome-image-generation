@@ -432,6 +432,15 @@
 
 # ---------------- Frameworks and UIs ----------------
 
+- name: BeatDesign
+  url: https://github.com/BeatAPI/BeatDesign
+  description: Open-source, local-first AI media workbench with a Canvas, short-form video editor, shared Assets, and MCP control for image and video workflows.
+  category: frameworks-and-uis
+  github: BeatAPI/BeatDesign
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-09-02
+
 - name: ComfyUI
   url: https://github.com/Comfy-Org/ComfyUI
   docs_url: https://docs.comfy.org/
