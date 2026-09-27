@@ -55,6 +55,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Stability AI](https://stability.ai)** – Stable Diffusion 3.5 and Stable Image via REST API. Text-to-image, image-to-image, upscaling, inpainting. [Docs](https://platform.stability.ai/docs/api-reference)
 - **[xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation)** – grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface. [Docs](https://docs.x.ai/developers/rest-api-reference/inference/images) | SDK: Python (xai-sdk), JS (openai-compatible)
 
+- **[Raphael](https://raphael.app)** – AI image generation and design tool for creating directed campaign visuals from prompts.
 ## Open Source Models
 
 > Open-weight image-generation models you can run locally or self-host.
