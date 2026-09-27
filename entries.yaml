@@ -685,10 +685,9 @@
 
 - name: UpRes
   url: https://upres.ai
-  docs_url: https://upres.ai/docs
+  docs_url: https://upres.ai/docs/api
   description: AI image and video upscaler with a public REST API, CLI, and MCP server. Upscales photos and video toward 4K.
   category: image-editing-and-enhancement
-  github: Lifecycle-Innovations-Limited/upres
   b2_integration: ""
   last_verified: 2026-09-27
 
