@@ -223,7 +223,7 @@
   category: text-to-image-apis
   b2_integration: ""
   last_verified: 2026-09-29
-            
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
