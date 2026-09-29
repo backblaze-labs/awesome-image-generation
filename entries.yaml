@@ -216,6 +216,14 @@
   b2_integration: ""
   last_verified: 2026-06-01
 
+- name: VELIN Image API
+  url: https://72agi.com
+  docs_url: https://72agi.com/docs.html
+  description: Async pay-per-image REST API for Nano Banana Pro/2 and GPT Image 2/2.5. Flat price at 1K/2K/4K, up to 14 reference images, failed generations not charged. Python, Node and curl examples.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-09-29
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
