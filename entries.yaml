@@ -5,6 +5,18 @@
 
 # ---------------- Text-to-Image APIs ----------------
 
+- name: Magic Hour
+  url: https://magichour.ai/api
+  docs_url: https://docs.magichour.ai/get-started/quick-start
+  description: Hosted REST API for image generation, prompt-based image editing, face swaps, and upscaling, with asynchronous jobs and output downloads.
+  category: text-to-image-apis
+  github: magichourhq/magic-hour-python
+  sdks:
+    - {language: Python, url: https://github.com/magichourhq/magic-hour-python}
+    - {language: TypeScript, url: https://github.com/magichourhq/magic-hour-node}
+  b2_integration: ""
+  last_verified: 2026-09-06
+
 - name: OpenAI GPT Image
   url: https://platform.openai.com/docs/guides/images
   docs_url: https://platform.openai.com/docs/api-reference/images
