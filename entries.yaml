@@ -16,6 +16,14 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Muapi
+  url: https://muapi.ai
+  docs_url: https://muapi.ai/docs/image-generation
+  description: Unified API for image, video, and audio generation with an OpenAI-compatible image-generation endpoint.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-10-04
+
 - name: Black Forest Labs (FLUX Pro)
   url: https://bfl.ai
   docs_url: https://docs.bfl.ml/quick_start/introduction
