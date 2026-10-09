@@ -33,6 +33,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Commercial image-generation APIs with hosted inference and developer SDKs.
 
+- **[LivePair AI](https://livepairai.com)** – Multimodal image and video generation API — pay-per-call x402 USDC or prepaid credits. CLI, MCP server, n8n node. [Docs](https://livepairai.com/docs)
 - **[Adobe Firefly API](https://developer.adobe.com/firefly-services/)** – Image generation, editing, Photoshop automation, and Lightroom operations. Part of Firefly Services platform. [Docs](https://developer.adobe.com/firefly-services/docs/firefly-api/) | SDK: JS/TS (official)
 - **[Amazon Titan Image Generator](https://aws.amazon.com/bedrock/)** – Text-to-image via AWS Bedrock. Image conditioning, color palette guidance, background removal, and variations. [Docs](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-image-models.html) | SDK: Python (boto3), Java, PHP
 - **[Black Forest Labs (FLUX Pro)](https://bfl.ai)** – FLUX 1.1 Pro and FLUX.2 (32B params) via REST API. From the creators of FLUX and Stable Diffusion. Also on Replicate, fal.ai, Together AI. [Docs](https://docs.bfl.ml/quick_start/introduction)
