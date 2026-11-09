@@ -159,6 +159,7 @@
 - [HuggingFace Inference Providers](https://huggingface.co/docs/inference-providers): Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers.
   - docs: https://huggingface.co/docs/inference-providers/index
 - [OpenAI SDK](https://platform.openai.com/docs/api-reference/images): Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit().
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset): MCP server routing image generation prompts across 30+ models (DALL-E, Flux, Stable Diffusion, Midjourney, and more) via a unified API.
 
 ## GPU Cloud Providers
 

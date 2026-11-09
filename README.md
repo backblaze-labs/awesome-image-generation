@@ -136,6 +136,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Cog](https://github.com/replicate/cog)** – Open-source tool for packaging ML models into Docker containers. Defines environment via cog.yaml, auto-generates a REST prediction API (Rust/Axum server), and deploys to Replicate or any Docker host. [Docs](https://cog.run)
 - **[HuggingFace Inference Providers](https://huggingface.co/docs/inference-providers)** – Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers. [Docs](https://huggingface.co/docs/inference-providers/index) | SDK: Python (pip install huggingface_hub), JS (npm install @huggingface/inference)
 - **[OpenAI SDK](https://platform.openai.com/docs/api-reference/images)** – Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit(). SDK: Python (pip install openai), Node (npm install openai)
+- **[prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset)** – MCP server routing image generation prompts across 30+ models (DALL-E, Flux, Stable Diffusion, Midjourney, and more) via a unified API. SDK: Node (npm install -g prompt-to-asset)
 
 ## GPU Cloud Providers
 
