@@ -236,6 +236,14 @@
   b2_integration: ""
   last_verified: 2026-06-01
 
+- name: Minglyph
+  url: https://minglyph.com/
+  docs_url: https://minglyph.com/docs/api
+  description: Workspace-scoped REST API for generating static word-art images from exact text, a meaning, and a visual-style brief.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-10-14
+
 # ---------------- Open Source Models ----------------
 
 - name: FLUX.1 [schnell]
