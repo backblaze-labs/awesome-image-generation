@@ -123,6 +123,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)** – ComfyUI custom node set for generating ControlNet hint images. Preprocessors include Canny, HED, depth estimation, pose detection, segmentation, and 20+ others. Apache-2.0.
 - **[ControlNet](https://huggingface.co/docs/diffusers/main/api/pipelines/controlnet_flux)** – Precise structural control for diffusion models via edge maps, depth, pose, normals. Available for SD1.5, SDXL, and Flux. [Docs](https://github.com/Mikubill/sd-webui-controlnet)
 - **[Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion)** – Plugin integrating diffusion-based generation into Krita. Inpaint, outpaint, upscale, and ControlNet workflows without leaving the canvas. Uses ComfyUI as backend. Supports FLUX, SD 1.5/XL, Z-Image, and Illustrious. [Docs](https://docs.interstice.cloud/)
+- **[UpRes](https://upres.ai)** – AI image and video upscaler with a public REST API, CLI, and MCP server. Upscales photos and video toward 4K. [Docs](https://upres.ai/docs/api)
 - **[Upscayl](https://github.com/upscayl/upscayl)** – Desktop GUI for AI image upscaling on Linux, macOS, and Windows. Uses Real-ESRGAN and other models; up to 16x upscale. Requires Vulkan GPU. [Docs](https://upscayl.org)
 
 ## SDKs and Developer Tooling
