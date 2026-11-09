@@ -36,6 +36,15 @@
   b2_integration: ""
   last_verified: 2026-10-04
 
+- name: UberLLM
+  url: https://uberllm.dev
+  docs_url: https://uberllm.dev/docs/media
+  description: Prepaid API with OpenAI-style /v1/images/generations and /v1/images/edits endpoints for image models such as Flux, Seedream and Nano Banana, on the same key as its text and video models; each request returns its cost.
+  category: text-to-image-apis
+  tags: [openai-compatible, image-editing, aggregator]
+  b2_integration: ""
+  last_verified: 2026-11-04
+
 - name: Black Forest Labs (FLUX Pro)
   url: https://bfl.ai
   docs_url: https://docs.bfl.ml/quick_start/introduction
