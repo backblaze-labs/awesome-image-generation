@@ -246,6 +246,14 @@
 
 # ---------------- Open Source Models ----------------
 
+- name: TeamoRouter
+  url: https://teamorouter.com
+  docs_url: https://teamorouter.com/docs/gpt-image-2.5-flare-api
+  description: OpenAI-compatible /v1/images/generations and /v1/images/edits endpoint serving GPT Image 2 and GPT Image 2.5 (Flare and Sunburst) under one API key, billed per image; works with the OpenAI SDK by changing base_url.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-10-19
+
 - name: FLUX.1 [schnell]
   url: https://huggingface.co/black-forest-labs/FLUX.1-schnell
   docs_url: https://github.com/black-forest-labs/flux
