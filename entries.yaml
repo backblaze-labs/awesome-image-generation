@@ -45,6 +45,15 @@
   b2_integration: ""
   last_verified: 2026-11-04
 
+- name: Imagera API
+  url: https://imagera.ai/developers
+  docs_url: https://api.imagera.ai/llms.txt
+  description: REST API for many image models (text to image and image editing) behind one key, plus video, voice and music models; OpenAPI spec at https://api.imagera.ai/openapi.json and a remote MCP server for agents. Paid, billed per request.
+  category: text-to-image-apis
+  tags: [aggregator, image-editing, openapi, mcp]
+  b2_integration: ""
+  last_verified: 2026-11-10
+
 - name: Black Forest Labs (FLUX Pro)
   url: https://bfl.ai
   docs_url: https://docs.bfl.ml/quick_start/introduction
