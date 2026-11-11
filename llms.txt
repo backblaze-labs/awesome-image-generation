@@ -18,6 +18,8 @@
   - docs: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/image/overview
 - [Ideogram](https://ideogram.ai): Known for high-quality text rendering in images. Ideogram 3.0 supports generation, remix, edit, and character reference. OpenAI-compatible interface.
   - docs: https://developer.ideogram.ai
+- [Imagera API](https://imagera.ai/developers): REST API and remote MCP server giving one key access to many text-to-image and image-editing models, with a public OpenAPI spec.
+  - docs: https://api.imagera.ai/openapi.json
 - [Leonardo AI](https://leonardo.ai/api): Text-to-image, image-to-image, and image-to-video. Webhooks, LoRA models, and "Get API Code" export from web UI.
   - docs: https://docs.leonardo.ai/docs/getting-started
 - [Magic Hour](https://magichour.ai/api): Hosted REST API for image generation, prompt-based image editing, face swaps, and upscaling, with asynchronous jobs and output downloads.
