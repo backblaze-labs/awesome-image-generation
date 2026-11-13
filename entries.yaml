@@ -45,6 +45,15 @@
   b2_integration: ""
   last_verified: 2026-11-04
 
+- name: HopBase
+  url: https://hop-base.com
+  docs_url: https://hop-base.com/en/docs/media/images
+  description: API with OpenAI Images-compatible /v1/images/generations and /v1/images/edits endpoints for GPT Image, Gemini, Seedream, Grok Imagine, Kling and Midjourney image models, served from the same base URL as its text and video models.
+  category: text-to-image-apis
+  tags: [openai-compatible, image-editing, aggregator]
+  b2_integration: ""
+  last_verified: 2026-11-10
+
 - name: Black Forest Labs (FLUX Pro)
   url: https://bfl.ai
   docs_url: https://docs.bfl.ml/quick_start/introduction
