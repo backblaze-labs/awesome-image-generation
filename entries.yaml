@@ -1055,3 +1055,16 @@
   category: templates-and-example-projects
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: CloudGPU
+  url: https://cloudgpu.app
+  docs_url: https://cloudgpu.app/docs
+  description: Per-minute GPU rental with SSH, Jupyter and ComfyUI templates, a REST API and an MCP server for creating instances and jobs.
+  category: gpu-cloud-providers
+  github: cloudgpu-app/cloudgpu-mcp
+  sdks:
+    - {language: JavaScript, url: https://www.npmjs.com/package/cloudgpu-mcp}
+  license: MIT
+  tags: [gpu, mcp]
+  b2_integration: ""
+  last_verified: 2026-11-13
