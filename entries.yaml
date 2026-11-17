@@ -253,6 +253,17 @@
   b2_integration: ""
   last_verified: 2026-10-14
 
+- name: Mynth
+  url: https://mynth.io
+  docs_url: https://mynth.io/docs
+  description: REST API for text-to-image, image-to-image and background removal across a catalog of hosted image models, with video generation on the same API and a TypeScript SDK and CLI.
+  category: text-to-image-apis
+  github: mynthio/oss
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@mynthio/sdk}
+  b2_integration: ""
+  last_verified: 2026-11-17
+
 # ---------------- Open Source Models ----------------
 
 - name: TeamoRouter
