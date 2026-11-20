@@ -80,7 +80,7 @@
   description: Imagen 4 via Vertex AI. Text-to-image, editing, outpainting, inpainting, customization.
   category: text-to-image-apis
   sdks:
-    - {language: Python (google-cloud-aiplatform)}
+    - {language: Python}
     - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
@@ -91,7 +91,7 @@
   description: Image generation, editing, Photoshop automation, and Lightroom operations. Part of Firefly Services platform.
   category: text-to-image-apis
   sdks:
-    - {language: JS/TS (official)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -118,7 +118,7 @@
   category: text-to-image-apis
   sdks:
     - {language: Python, url: https://pypi.org/project/runware/}
-    - {language: JS, url: https://github.com/Runware/sdk-js}
+    - {language: JavaScript, url: https://github.com/Runware/sdk-js}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -136,7 +136,7 @@
   description: Text-to-image via AWS Bedrock. Image conditioning, color palette guidance, background removal, and variations.
   category: text-to-image-apis
   sdks:
-    - {language: Python (boto3)}
+    - {language: Python}
     - {language: Java}
     - {language: PHP}
   b2_integration: ""
@@ -160,7 +160,7 @@
   category: text-to-image-apis
   sdks:
     - {language: Python}
-    - {language: JS}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -170,8 +170,8 @@
   description: "grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface."
   category: text-to-image-apis
   sdks:
-    - {language: Python (xai-sdk)}
-    - {language: JS (openai-compatible)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -193,8 +193,8 @@
   description: Native image generation via Gemini models (gemini-2.5-flash-image, gemini-3.1-flash-image-preview). Text-to-image, editing, multi-turn. Python/JS/Go/Java SDKs. Free tier via AI Studio.
   category: text-to-image-apis
   sdks:
-    - {language: Python (google-genai)}
-    - {language: JS (google/generative-ai)}
+    - {language: Python}
+    - {language: JavaScript}
     - {language: Go}
     - {language: Java}
   b2_integration: ""
@@ -252,7 +252,7 @@
   category: text-to-image-apis
   sdks:
     - {language: Python}
-    - {language: JS/TS}
+    - {language: TypeScript}
     - {language: PHP}
     - {language: Go}
     - {language: Dart}
@@ -265,7 +265,7 @@
   description: Serverless image generation API with 50+ models including FLUX.1/2, Recraft V4, and SD variants. 190ms latency for FLUX. Sync and async endpoints. JavaScript (prodia-js) and Python SDKs.
   category: text-to-image-apis
   sdks:
-    - {language: JS, url: https://github.com/prodialabs/prodia-js}
+    - {language: JavaScript, url: https://github.com/prodialabs/prodia-js}
     - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
@@ -792,7 +792,7 @@
   category: sdks-and-developer-tooling
   github: huggingface/diffusers
   sdks:
-    - {language: Python (pip install diffusers)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -803,8 +803,8 @@
   category: sdks-and-developer-tooling
   github: replicate/replicate-python
   sdks:
-    - {language: Python (pip install replicate)}
-    - {language: Node (npm install replicate)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -813,8 +813,8 @@
   description: "Official SDK for GPT Image generation and editing. client.images.generate() and client.images.edit()."
   category: sdks-and-developer-tooling
   sdks:
-    - {language: Python (pip install openai)}
-    - {language: Node (npm install openai)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -840,8 +840,8 @@
   category: sdks-and-developer-tooling
   github: fal-ai/fal-js
   sdks:
-    - {language: Python (pip install fal-client)}
-    - {language: Node (npm install @fal-ai/client)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -852,7 +852,7 @@
   category: sdks-and-developer-tooling
   github: gradio-app/gradio
   sdks:
-    - {language: Python (pip install gradio)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -862,8 +862,8 @@
   description: Unified Python/JS client routing requests to fal, Replicate, Together, WaveSpeedAI, and others. Supports text-to-image tasks including FLUX models. Free tier; single HF token for all providers.
   category: sdks-and-developer-tooling
   sdks:
-    - {language: Python (pip install huggingface_hub)}
-    - {language: JS (npm install @huggingface/inference)}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -882,7 +882,7 @@
   category: sdks-and-developer-tooling
   github: MohamedAbdallah-14/prompt-to-asset
   sdks:
-    - {language: Node (npm install -g prompt-to-asset)}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-04-26
 
@@ -902,7 +902,7 @@
   description: Serverless Python GPU cloud. Sub-second cold starts.
   category: gpu-cloud-providers
   sdks:
-    - {language: Python (pip install modal)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -945,7 +945,7 @@
   category: gpu-cloud-providers
   sdks:
     - {language: Python}
-    - {language: JS}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -997,7 +997,7 @@
   category: evaluation-and-observability
   github: mseitzer/pytorch-fid
   sdks:
-    - {language: Python (pip install pytorch-fid)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -1008,7 +1008,7 @@
   category: evaluation-and-observability
   github: toshas/torch-fidelity
   sdks:
-    - {language: Python (pip install torch-fidelity)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
