@@ -32,16 +32,24 @@
   - docs: https://docs.modelslab.com/image-generation
 - [Muapi](https://muapi.ai): Unified API for image, video, and audio generation with an OpenAI-compatible image-generation endpoint.
   - docs: https://muapi.ai/docs/image-generation
+- [Mynth](https://mynth.io): REST API for text-to-image, image-to-image and background removal across a catalog of hosted image models, with video generation on the same API and a TypeScript SDK and CLI.
+  - docs: https://mynth.io/docs
 - [Novita AI](https://novita.ai): Serverless API with 200+ image models including FLUX.1 Kontext, Hunyuan Image 3, Seedream, and SD variants. Text-to-image, img2img, inpainting, ControlNet. Python and JS SDKs.
   - docs: https://novita.ai/docs/api-reference/api-reference-overview
 - [OpenAI GPT Image](https://platform.openai.com/docs/guides/images): gpt-image-1, gpt-image-1.5, gpt-image-1-mini. Natively multimodal generation, editing, and inpainting. DALL-E 2/3 deprecated May 2026.
   - docs: https://platform.openai.com/docs/api-reference/images
+- [OpenPaths](https://openpaths.io): OpenAI-compatible model router with image-generation endpoints across multiple providers.
+  - docs: https://openpaths.io/docs
 - [Pollinations.ai](https://pollinations.ai): Free open-source generative AI platform. Image generation via GET endpoint (FLUX, Turbo, Kontext). Anonymous tier; register for watermark-free access and higher rate limits.
   - docs: https://raw.githubusercontent.com/pollinations/pollinations/master/APIDOCS.md
+- [PopNow](https://popnow.ai/api): REST API, SDKs and MCP server for image generation across hosted image, video and audio models, using asynchronous tasks.
+  - docs: https://popnow.ai/docs
 - [Prodia](https://prodia.com): Serverless image generation API with 50+ models including FLUX.1/2, Recraft V4, and SD variants. 190ms latency for FLUX. Sync and async endpoints. JavaScript (prodia-js) and Python SDKs.
   - docs: https://docs.prodia.com
 - [Recraft AI](https://www.recraft.ai/api): Raster and vector image generation. V4 model (Feb 2026). Background removal, inpainting, outpainting, vectorization. OpenAI-compatible interface.
   - docs: https://www.recraft.ai/docs/api-reference/getting-started
+- [RunAPI](https://runapi.ai): Unified API and client SDKs for image generation models including Flux 2 and GPT Image 2.
+  - docs: https://runapi.ai/models/flux-2
 - [Runware](https://runware.ai): Image generation API serving 400k+ models via proprietary Sonic Inference Engine. Text-to-image, inpainting, outpainting, upscaling. Pay-per-image pricing with $2 free trial.
   - docs: https://runware.ai/docs/en/image-inference/introduction
 - [Segmind](https://www.segmind.com): Serverless REST API for 150+ image and video models including FLUX, GPT Image, Imagen 4, Kling, and Wan. PixelFlow workflow builder for chaining models. Free credits on signup.
@@ -54,6 +62,8 @@
   - docs: https://teamorouter.com/docs/gpt-image-2.5-flare-api
 - [UberLLM](https://uberllm.dev): Prepaid API with OpenAI-style /v1/images/generations and /v1/images/edits endpoints for image models such as Flux, Seedream and Nano Banana, on the same key as its text and video models; each request returns its cost.
   - docs: https://uberllm.dev/docs/media
+- [VELIN Image API](https://72agi.com): Async REST API for image generation with Nano Banana Pro/2 and GPT Image 2/2.5, supporting up to 14 reference images and 1K/2K/4K output, with Python, Node and curl examples.
+  - docs: https://72agi.com/docs.html
 - [xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation): grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface.
   - docs: https://docs.x.ai/developers/rest-api-reference/inference/images
 
@@ -165,6 +175,8 @@
 
 ## GPU Cloud Providers
 
+- [CloudGPU](https://cloudgpu.app): Per-minute GPU rental with SSH, Jupyter and ComfyUI templates, a REST API and an MCP server for creating instances and jobs.
+  - docs: https://cloudgpu.app/docs
 - [fal.ai (GPU)](https://fal.ai/pricing): Fastest diffusion inference engine. 1000+ hosted models.
   - docs: https://docs.fal.ai
 - [Lambda Labs](https://lambdalabs.com): On-demand A100 and H100 GPUs. Competitive pricing (~$1.10/hr A100 80GB).
