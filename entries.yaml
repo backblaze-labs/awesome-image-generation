@@ -833,6 +833,19 @@
   b2_integration: ""
   last_verified: 2026-11-19
 
+- name: i2v.ai
+  url: https://i2v.ai
+  docs_url: https://i2v.ai/docs/api
+  description: Hosted API for text-to-image generation across 12 image models, including image editing and image-to-video, with a USD quote before each paid task and a per-task spending cap.
+  category: text-to-image-apis
+  github: i2v-ai/i2v-mcp
+  license: MIT
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@i2v-ai/sdk}
+    - {language: Python, url: https://pypi.org/project/i2v-ai/}
+  b2_integration: ""
+  last_verified: 2026-11-22
+
 - name: fal.ai SDK
   url: https://github.com/fal-ai/fal-js
   docs_url: https://docs.fal.ai
