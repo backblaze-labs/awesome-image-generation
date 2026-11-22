@@ -49,9 +49,9 @@
   b2_integration: ""
   last_verified: 2026-11-14
 
-- name: UberLLM
-  url: https://uberllm.dev
-  docs_url: https://uberllm.dev/docs/media
+- name: MartLLM
+  url: https://martllm.com
+  docs_url: https://martllm.com/docs/media
   description: Prepaid API with OpenAI-style /v1/images/generations and /v1/images/edits endpoints for image models such as Flux, Seedream and Nano Banana, on the same key as its text and video models; each request returns its cost.
   category: text-to-image-apis
   tags: [openai-compatible, image-editing, aggregator]
