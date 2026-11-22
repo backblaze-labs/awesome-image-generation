@@ -60,8 +60,8 @@
   - docs: https://platform.stability.ai/docs/api-reference
 - [TeamoRouter](https://teamorouter.com): OpenAI-compatible /v1/images/generations and /v1/images/edits endpoint serving GPT Image 2 and GPT Image 2.5 (Flare and Sunburst) under one API key, billed per image; works with the OpenAI SDK by changing base_url.
   - docs: https://teamorouter.com/docs/gpt-image-2.5-flare-api
-- [UberLLM](https://uberllm.dev): Prepaid API with OpenAI-style /v1/images/generations and /v1/images/edits endpoints for image models such as Flux, Seedream and Nano Banana, on the same key as its text and video models; each request returns its cost.
-  - docs: https://uberllm.dev/docs/media
+- [MartLLM](https://martllm.com): Prepaid API with OpenAI-style /v1/images/generations and /v1/images/edits endpoints for image models such as Flux, Seedream and Nano Banana, on the same key as its text and video models; each request returns its cost.
+  - docs: https://martllm.com/docs/media
 - [VELIN Image API](https://72agi.com): Async REST API for image generation with Nano Banana Pro/2 and GPT Image 2/2.5, supporting up to 14 reference images and 1K/2K/4K output, with Python, Node and curl examples.
   - docs: https://72agi.com/docs.html
 - [xAI Image Generation API](https://docs.x.ai/developers/model-capabilities/images/generation): grok-imagine-image model via REST API. Text-to-image and image editing. Batch up to 10 images, 1k/2k resolution. OpenAI-compatible interface.
