@@ -1104,3 +1104,12 @@
   tags: [gpu, mcp]
   b2_integration: ""
   last_verified: 2026-11-13
+
+- name: Apidly Cloud
+  url: https://apidly.com
+  docs_url: https://apidly.com/docs
+  description: Managed GPU servers with a ready-made ComfyUI template, billed by the second, plus a REST API and SDKs for creating servers and serverless endpoints.
+  category: gpu-cloud-providers
+  tags: [gpu]
+  b2_integration: ""
+  last_verified: 2026-11-23
