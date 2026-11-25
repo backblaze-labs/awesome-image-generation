@@ -308,6 +308,14 @@
   b2_integration: ""
   last_verified: 2026-10-19
 
+- name: onomeo
+  url: https://onomeo.com
+  docs_url: https://onomeo.com/integrations
+  description: OpenAI-compatible /v1/images/generations endpoint serving GPT Image 2.6, Nano Banana 2.1 and Nano Banana Pro under one API key, billed per image and returning URLs or b64_json; the same key also serves chat completions.
+  category: text-to-image-apis
+  b2_integration: ""
+  last_verified: 2026-11-25
+
 - name: FLUX.1 [schnell]
   url: https://huggingface.co/black-forest-labs/FLUX.1-schnell
   docs_url: https://github.com/black-forest-labs/flux
